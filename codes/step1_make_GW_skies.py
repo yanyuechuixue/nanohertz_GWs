@@ -254,7 +254,7 @@ delta0 = 0.7668
 delta1 = -0.4695
 
 # For Illustris galaxy-galaxy merger rate
-# functions for Illustris, Table 1 of Rodriguez-Gomez et al. (2016), assuming z != 0. 
+# functions for Illustris, Table 1 of Rodriguez-Gomez et al. (2016), 「arXiv: 1502.01339」 assuming z != 0. 
 
 def A_z(z): return A0*(1+z)**eta 
 def alpha(z): return alpha0*(1+z)**alpha1
